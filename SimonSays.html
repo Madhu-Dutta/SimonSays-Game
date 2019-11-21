@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Says</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/SimonSays.css">
+    <script src="js/SimonSays2.js"></script>
+
+</head>
+
+<h2>Simon Says Game</h2>
+<body onload = "createLevel(1)">
+<div id="simon">
+</div>
+<hr>
+
+<div id="gameboard">
+    <button id="level-title">Level</button>
+    <!-- <button id="reset"></button> -->
+    <div class="container">
+    <div id="row">
+        <div type="button" id="green" class="btn green"></div>
+        <div type="button" id="red" class="btn red"></div>
+        </div>
+        <div id="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+    </div>
+    <p id="won"></p>
+    <p id="lose"></p>
+    <p class="help"></p>
+    <button id="reset">Reset</button>
+    </div>
+</div>
+
+
+</body>
+</html>

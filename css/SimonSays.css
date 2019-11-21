@@ -1,0 +1,49 @@
+#simon {
+    text-align: center;
+}
+
+.pattern {
+    display: inline-block;
+    width : 100px;
+    height : 100px;
+    border : 1px solid black;
+}
+
+  .help{
+    color: green;
+    font-weight: bold;
+  }
+  .container {
+    text-align: center;    
+    width: 50%;
+    margin: auto;  
+  }
+  
+  .btn {        
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    border: 2px solid black;   
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
